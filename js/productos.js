@@ -4,11 +4,11 @@ createApp({
     data(){
         return{
             productos: [],
-            url: 'http://localhost:4000/productos',
+            url: 'https://nodejscac.alwaysdata.net/productos',
             cargando: true,
             error: false,
             categorias:[],
-            url_c: 'http://localhost:4000/categorias',
+            url_c: 'https://nodejscac.alwaysdata.net/categorias',
         }
     },
     methods:{
