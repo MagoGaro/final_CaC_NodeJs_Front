@@ -1,4 +1,4 @@
-fetch('http://localhost:4000/categorias') 
+fetch('https://5485732b-e059-4f80-96c1-8349a51548a1-00-3gwtqwkhsuvx5.riker.replit.dev/categorias') 
   .then(response => response.json())
   .then(categories => {
     //console.log(categories)
