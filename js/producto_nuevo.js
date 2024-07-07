@@ -13,7 +13,7 @@ function guardar() {
       categoria
     };
   
-    const url = 'http://localhost:4000/productos';
+    const url = 'https://5485732b-e059-4f80-96c1-8349a51548a1-00-3gwtqwkhsuvx5.riker.replit.dev/productos';
 
   
     const options = {
