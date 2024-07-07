@@ -4,11 +4,11 @@ createApp({
     data(){
         return{
             productos: [],
-            url: 'https://nodejscac.alwaysdata.net/productos',
+            url: 'https://5485732b-e059-4f80-96c1-8349a51548a1-00-3gwtqwkhsuvx5.riker.replit.dev/productos',
             cargando: true,
             error: false,
             categorias:[],
-            url_c: 'https://nodejscac.alwaysdata.net/categorias',
+            url_c: 'https://5485732b-e059-4f80-96c1-8349a51548a1-00-3gwtqwkhsuvx5.riker.replit.dev/categorias',
         }
     },
     methods:{
