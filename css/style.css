@@ -6,12 +6,24 @@ body {
     background-position: center;
     background-size: cover;
 }   
-
+table{
+    background-color: #f7f7f78e;
+    backdrop-filter: blur(5px)
+}
 table > *{
     border: 1px solid black;
 }
+table td{
+    align-content: center;
+}
 main{
     min-height: 80vh;
+}
+.container h1{
+    margin-top: 0.5em;
+}
+.bg-navbar{
+    background-color: #f7f7f78e;
 }
 .sobrepie{
     margin-top: auto;
@@ -36,25 +48,42 @@ main{
 .galeria{
     display: flex;
     width: 100%;
-    max-height: 72vh;
     flex-wrap: wrap;
-    justify-content: space-around;
-    overflow-y: scroll;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 3em;
+    margin-bottom: 3em;
 }
+.card{
+    padding: 1em;
+    border-radius: 1em;
+    height: 400px;
+}
+.card img{
+    width: 100%;
+    padding: 1em;
+}
+
 .card2{
     margin: 0.5rem;
     text-align: center;
 }
+.prese h3{
+    font-size: 25px;
+}
 .prese {
     text-align: center;
     width: 25%;
+    padding: 0;
 }
 .fotoperfil{
     margin: 2px auto;
     width: 70%;
     border-radius: 50%;
 }
-
+.prese .img-width{
+    width: 80%;
+}
 .fa-linkedin{
     color: #0072b1;
 }
@@ -77,19 +106,23 @@ main{
 }
 .piesito{
     width: 100%;
+    padding-top: 1em;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    align-content: center;
     word-spacing: 0.5rem;
+    background-color: #f7f7f78e;
 }
 .cuerpito{
-    
+    margin: auto;
     display: flex;
     min-height: 75vh;
+    justify-content: center;
 }
 .form{
     background-color: #fff;
-    margin: auto;
+    margin: 2em;
     width: 90%;
     max-width: 400px;
     padding: 2rem 1em;
